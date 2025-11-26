@@ -6,4 +6,4 @@ A clone-style layout inspired by Udemy with simple and elegant styling.
 
 ## 📥 How to Use
 1. Clone the repository  
-   git clone:
+   git clone:https://madhupriya3102.github.io/trip-advisor/
