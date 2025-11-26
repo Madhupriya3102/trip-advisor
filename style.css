@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding:0%;
+    gap:0%;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+.collections{
+        justify-content: space-between;
+    color:white;
+    background-color: antiquewhite;
+}
+.navbar__ne{
+    width:20px;
+}
+.Title{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    color:darkblue;
+    font-size : 20px;
+   
+    box-shadow: 0px 1px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+}
+/*Title__s2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    color:darkblue;
+    font-size : 0px;
+
+}*/
+.navbar{
+   
+   padding:10px;
+    display:flex;
+    justify-content: space-between;
+     position:sticky;
+    align-items: center;
+    
+    top:0;  
+    color:white;
+    z-index: 1;
+}
+.navbar__n1{
+    color:blueviolet;
+   left:1px;
+   width:10px;
+     position:sticky;
+
+}
+.navbar__n1:hover{
+    color:black;
+}
+.navbar__n3{
+color:white;
+  box-shadow: 0px 1px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    border-radius: 30px;
+    padding:10px;
+     width:60%;
+     display:flex;
+     gap:10px;
+     align-items: center;
+     background-color: white;
+}
+
+
+.navbar__n3 input{
+    border:none;
+    width:100%;
+    font-size: 16px;
+     background-color: white;
+       position:sticky;
+}
+
+.navbar__n3 input:focus{
+    outline:none;
+ background-color: transparent;
+}
+
+
+.navbar__ne{
+    display:flex;
+    gap:10px;
+    
+    align-items: center;
+    
+}
+.navbar__n4{
+    border:solid black 1px;
+    border-radius:30px ;
+    background-color: green;
+    color:white;
+    font-size: medium;  
+      padding:20px;
+    
+}
+.navbar__n4:hover{
+    color:black;
+}
+.navbar__n3 i{
+    position:relative;
+
+
+}
+.navbar__n3 p{
+    position:absolute;
+    border-radius: 20px;
+   color: #000; 
+   background-color: green;
+left:90.5%;
+width:80px;
+height:30px;
+align-items:center;
+display:flex;
+justify-content: center;
+font-size: small;
+}
+.navbar__n3 p button{
+
+
+    background-color: transparent;
+    cursor:pointer;
+}
+
+
+/*.parent-container{
+    color:black;
+  
+    width:200px;
+    height:100px;
+    border-radius: 5%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: green;
+    flex-direction: row;
+    font-size: 20px;
+   padding: 10px;
+   gap:20px;
+   margin:0 auto;
+   top:30px;
+   position:relative;
+   top:30%;
+}*/
+.content:hover{
+    color:violet;
+}
+
+.recommended__title{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 50px;
+}
+.recommended__container{
+    gap:20px;
+    padding:30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap:20px;
+}
+.trip-card{
+ height: 50%;
+  width:250px;
+  position:relative;
+}
+
+
+.trip-card img{
+    height: 50%;
+    width:100%;
+    display:block;
+}
+./*trip-card__h4{
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    font-size: 14px;
+    font-style: bold;
+    color:white;
+    padding:4px 10px;
+}*/
+
+.moderator__title{
+    display:flex;
+         justify-content:center;
+    align-items: center;
+    
+
+}
+.moderator__p1{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.moderator__container img{
+  
+   padding:30px;
+    display:flex;
+    align-items: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 200px;
+    height: 200px;
+}
+.moderator-card{
+
+  
+  position:relative;
+}
+.topics
+{
+    padding:10px;
+
+}
+    
+.topics__container{
+    display:flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topics__container p{
+    border:solid gray 1px;
+    padding:10px;
+    flex-basis: 25%;
+    flex-grow:1;
+    gap:10px;
+}
+.footer {
+    bottom:10px;
+    padding:30px;
+    background-color: black;
+    color:white;
+    
+}
+.footer__one{
+    display: flex;
+  
+
+}
+.footer__one p{
+    padding:10px;
+}
+.footer__one p:hover{
+    color: bisque;
+    
+}
+.footer__two{
+    display:flex;
+    justify-content:space-between;
+    margin:10px;
+    align-items: center;
+   
+
+}
+.footer__two:hover{
+    color: bisque;
+}
+.course-card  p del{
+  padding: 2px;
+  
+} 
+.moderator__container{
+    padding:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap:20px;
+}
+.moderator__title{
+    display: flex;
+
+}
+.moderator__p1{
+    display: flex;
+
+}
+.reommended__p{
+    display: flex;
+}
